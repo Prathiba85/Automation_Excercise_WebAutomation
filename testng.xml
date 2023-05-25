@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="automationexcercise">
+	  <listeners>
+		<listener class-name="utilities.ExtentReportManager" />
+	</listeners>
+  <test thread-count="5" name="Master">
+    <classes>
+  <class name="TestCases.TC001_Register_User"/>
+       <class name="TestCases.TC002_ValidCredentials"/>
+        <class name="TestCases.TC003_InvalidCredentials"/>
+         <class name="TestCases.TC004_LogoutUser"/>
+          <class name="TestCases.TC005_Register_User_With_Registeredemail"/>
+           <class name="TestCases.TC006_Contactus_form"/>
+               <class name="TestCases.TC007_TestCases_Tab"/>
+    </classes>
+  </test> <!-- Master -->
+</suite> <!-- automationexcercise -->
