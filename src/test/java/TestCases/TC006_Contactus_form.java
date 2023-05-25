@@ -19,7 +19,7 @@ public class TC006_Contactus_form extends BaseClass {
 	public static String pwd;
 	public static String email;
 	@Test(priority =6)
-	public void registration() throws FilloException, SikuliException, InterruptedException 
+	public void TC006_Contactus() throws FilloException, SikuliException, InterruptedException 
 	{
 		HomePage hp = new HomePage(driver);
 		String actual_Homepage = driver.getCurrentUrl();

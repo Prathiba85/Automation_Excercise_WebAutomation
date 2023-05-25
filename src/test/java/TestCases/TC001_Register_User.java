@@ -17,7 +17,7 @@ public class TC001_Register_User extends BaseClass {
 	public static String pwd;
 	public static String email;
 	@Test(priority =1)
-	public void registration() throws InterruptedException
+	public void TC001_Register_newuser() throws InterruptedException
 	{
 		HomePage hp = new HomePage(driver);
 		hp.click_signup_login();

@@ -24,7 +24,7 @@ public class TC004_LogoutUser extends BaseClass {
 	
 	
 	@Test (priority =4)
-	public void registration() throws InterruptedException, FilloException
+	public void TC004_LogoutUser() throws InterruptedException, FilloException
 	{
 		HomePage hp = new HomePage(driver);
 		hp.click_signup_login();

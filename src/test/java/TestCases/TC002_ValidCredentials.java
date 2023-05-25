@@ -24,7 +24,7 @@ public class TC002_ValidCredentials extends BaseClass {
 	
 	
 	@Test (priority =2)
-	public void registration() throws InterruptedException, FilloException
+	public void TC002_ValidCredentials() throws InterruptedException, FilloException
 	{
 		HomePage hp = new HomePage(driver);
 		hp.click_signup_login();

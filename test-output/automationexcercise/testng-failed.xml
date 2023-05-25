@@ -9,12 +9,21 @@
       <class name="TestCases.TC001_Register_User">
         <methods>
           <include name="setup"/>
-          <include name="registration"/>
           <include name="tearDown"/>
           <include name="closeExcelSetup"/>
+          <include name="TC001_Register_newuser"/>
           <include name="ExcelSetup"/>
         </methods>
       </class> <!-- TestCases.TC001_Register_User -->
+      <class name="TestCases.TC007_TestCases_Tab">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="TC007_TestCAses_Tab"/>
+          <include name="closeExcelSetup"/>
+          <include name="ExcelSetup"/>
+        </methods>
+      </class> <!-- TestCases.TC007_TestCases_Tab -->
     </classes>
   </test> <!-- Master(failed) -->
 </suite> <!-- Failed suite [automationexcercise] -->

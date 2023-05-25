@@ -21,7 +21,7 @@ public class TC005_Register_User_With_Registeredemail extends BaseClass {
 	public static String pwd;
 	public static String email;
 	@Test(priority =5)
-	public void registration() throws InterruptedException, FilloException
+	public void TC005_registration_with_Existing_Email() throws InterruptedException, FilloException
 	{
 		HomePage hp = new HomePage(driver);
 		hp.click_signup_login();

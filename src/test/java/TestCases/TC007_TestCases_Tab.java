@@ -17,7 +17,7 @@ import Page_objects.TestCasePage;
 public class TC007_TestCases_Tab extends BaseClass {
 	
 	@Test(priority =7)
-	public void testcases() throws InterruptedException
+	public void TC007_TestCases_Tab() throws InterruptedException
 	{
 		HomePage hp =new HomePage(driver);
 		hp.click_testcases();

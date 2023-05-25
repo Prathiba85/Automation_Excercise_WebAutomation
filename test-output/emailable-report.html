@@ -9,19 +9,19 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">automationexcercise</th></tr>
-<tr><td><a href="#t0">Master</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">100,846</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Master</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">120,490</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">automationexcercise</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Master &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestCases.TC001_Register_User</td><td><a href="#m0">registration</a></td><td rowspan="1">1685011793036</td><td rowspan="1">9350</td></tr><tr><th colspan="4">Master &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestCases.TC002_ValidCredentials</td><td><a href="#m1">registration</a></td><td rowspan="1">1685011808716</td><td rowspan="1">11484</td></tr><tr class="passedodd"><td rowspan="1">TestCases.TC003_InvalidCredentials</td><td><a href="#m2">registration</a></td><td rowspan="1">1685011826479</td><td rowspan="1">6399</td></tr><tr class="passedeven"><td rowspan="1">TestCases.TC004_LogoutUser</td><td><a href="#m3">registration</a></td><td rowspan="1">1685011840425</td><td rowspan="1">9752</td></tr><tr class="passedodd"><td rowspan="1">TestCases.TC005_Register_User_With_Registeredemail</td><td><a href="#m4">registration</a></td><td rowspan="1">1685011856871</td><td rowspan="1">4140</td></tr><tr class="passedeven"><td rowspan="1">TestCases.TC006_Contactus_form</td><td><a href="#m5">registration</a></td><td rowspan="1">1685011866753</td><td rowspan="1">4736</td></tr><tr class="passedodd"><td rowspan="1">TestCases.TC007_TestCases_Tab</td><td><a href="#m6">testcases</a></td><td rowspan="1">1685011878498</td><td rowspan="1">7568</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">automationexcercise</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Master &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestCases.TC001_Register_User</td><td><a href="#m0">TC001_Register_newuser</a></td><td rowspan="1">1685058798034</td><td rowspan="1">12711</td></tr><tr class="failedodd"><td rowspan="1">TestCases.TC007_TestCases_Tab</td><td><a href="#m1">TC007_TestCAses_Tab</a></td><td rowspan="1">1685058900609</td><td rowspan="1">5110</td></tr><tr><th colspan="4">Master &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestCases.TC002_ValidCredentials</td><td><a href="#m2">TC002_ValidCredentials</a></td><td rowspan="1">1685058821982</td><td rowspan="1">16739</td></tr><tr class="passedodd"><td rowspan="1">TestCases.TC003_InvalidCredentials</td><td><a href="#m3">TC003_InvalidCredentials</a></td><td rowspan="1">1685058844778</td><td rowspan="1">5791</td></tr><tr class="passedeven"><td rowspan="1">TestCases.TC004_LogoutUser</td><td><a href="#m4">TC004_LogoutUser</a></td><td rowspan="1">1685058856260</td><td rowspan="1">11161</td></tr><tr class="passedodd"><td rowspan="1">TestCases.TC005_Register_User_With_Registeredemail</td><td><a href="#m5">TC005_registration_with_Existing_Email</a></td><td rowspan="1">1685058872917</td><td rowspan="1">3998</td></tr><tr class="passedeven"><td rowspan="1">TestCases.TC006_Contactus_form</td><td><a href="#m6">TC006_Contactus</a></td><td rowspan="1">1685058888566</td><td rowspan="1">5830</td></tr></tbody>
 </table>
-<h2>Master</h2><h3 id="m0">TestCases.TC001_Register_User#registration</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;dismiss-button&apos;]&quot;}
+<h2>Master</h2><h3 id="m0">TestCases.TC001_Register_User#TC001_Register_newuser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;dismiss-button&apos;]&quot;}
   (Session info: chrome=113.0.5672.127)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8c2331f61a8bc785f8503308dcfc0cbf, findElement {using=xpath, value=//div[@id=&apos;dismiss-button&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sanpr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56961}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56961/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8c2331f61a8bc785f8503308dcfc0cbf
+Command: [3570eca912bc1132e4fbaf6782f9c4e7, findElement {using=xpath, value=//div[@id=&apos;dismiss-button&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sanpr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64601}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64601/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3570eca912bc1132e4fbaf6782f9c4e7
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -37,14 +37,40 @@ Session ID: 8c2331f61a8bc785f8503308dcfc0cbf
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 	at jdk.proxy2/jdk.proxy2.$Proxy22.isDisplayed(Unknown Source)
 	at Page_objects.LandingPage.dismiss_adv(LandingPage.java:64)
-	at TestCases.TC001_Register_User.registration(TC001_Register_User.java:80)
+	at TestCases.TC001_Register_User.TC001_Register_newuser(TC001_Register_User.java:80)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">TestCases.TC002_ValidCredentials#registration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">TestCases.TC003_InvalidCredentials#registration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">TestCases.TC004_LogoutUser#registration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">TestCases.TC005_Register_User_With_Registeredemail#registration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">TestCases.TC006_Contactus_form#registration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">TestCases.TC007_TestCases_Tab#testcases</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestCases.TC007_TestCases_Tab#TC007_TestCAses_Tab</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//iframe[@id=&apos;aswift_3&apos;]&quot;}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2cd0adb8a73a19125f5d2dfdf4c2d4b, findElement {using=xpath, value=//iframe[@id=&apos;aswift_3&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sanpr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65206}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65206/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2cd0adb8a73a19125f5d2dfdf4c2d4b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.isDisplayed(Unknown Source)
+	at Page_objects.TestCasePage.dismiss_advertisement(TestCasePage.java:32)
+	at TestCases.TC007_TestCases_Tab.TC007_TestCAses_Tab(TC007_TestCases_Tab.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TestCases.TC002_ValidCredentials#TC002_ValidCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">TestCases.TC003_InvalidCredentials#TC003_InvalidCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">TestCases.TC004_LogoutUser#TC004_LogoutUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">TestCases.TC005_Register_User_With_Registeredemail#TC005_registration_with_Existing_Email</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">TestCases.TC006_Contactus_form#TC006_Contactus</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

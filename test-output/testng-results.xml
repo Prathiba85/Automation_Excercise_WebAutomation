@@ -1,127 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="12" total="19" passed="6" failed="1" skipped="0">
+<testng-results ignored="12" total="19" passed="5" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-25T20:49:45 AEST" name="automationexcercise" finished-at="2023-05-25T20:51:26 AEST" duration-ms="100846">
+  <suite started-at="2023-05-26T09:53:05 AEST" name="automationexcercise" finished-at="2023-05-26T09:55:06 AEST" duration-ms="120490">
     <groups>
     </groups>
-    <test started-at="2023-05-25T20:49:45 AEST" name="Master" finished-at="2023-05-25T20:51:26 AEST" duration-ms="100846">
+    <test started-at="2023-05-26T09:53:05 AEST" name="Master" finished-at="2023-05-26T09:55:06 AEST" duration-ms="120490">
       <class name="TestCases.TC002_ValidCredentials">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC002_ValidCredentials@543295b0]" started-at="2023-05-25T20:50:02 AEST" name="setup" finished-at="2023-05-25T20:50:08 AEST" duration-ms="5782" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC002_ValidCredentials@3b0fe47a]" started-at="2023-05-26T09:53:31 AEST" name="setup" finished-at="2023-05-26T09:53:41 AEST" duration-ms="10667" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="registration()[pri:2, instance:TestCases.TC002_ValidCredentials@543295b0]" started-at="2023-05-25T20:50:08 AEST" name="registration" finished-at="2023-05-25T20:50:20 AEST" duration-ms="11484" status="PASS">
+        <test-method signature="TC002_ValidCredentials()[pri:2, instance:TestCases.TC002_ValidCredentials@3b0fe47a]" started-at="2023-05-26T09:53:41 AEST" name="TC002_ValidCredentials" finished-at="2023-05-26T09:53:58 AEST" duration-ms="16739" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC002_ValidCredentials@543295b0]" started-at="2023-05-25T20:50:20 AEST" name="tearDown" finished-at="2023-05-25T20:50:20 AEST" duration-ms="375" status="PASS">
+        </test-method> <!-- TC002_ValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC002_ValidCredentials@3b0fe47a]" started-at="2023-05-26T09:53:58 AEST" name="tearDown" finished-at="2023-05-26T09:53:59 AEST" duration-ms="298" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestCases.TC002_ValidCredentials -->
       <class name="TestCases.TC003_InvalidCredentials">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC003_InvalidCredentials@54422e18]" started-at="2023-05-25T20:50:20 AEST" name="setup" finished-at="2023-05-25T20:50:26 AEST" duration-ms="5753" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC003_InvalidCredentials@202b0582]" started-at="2023-05-26T09:53:59 AEST" name="setup" finished-at="2023-05-26T09:54:04 AEST" duration-ms="5535" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="registration()[pri:3, instance:TestCases.TC003_InvalidCredentials@54422e18]" started-at="2023-05-25T20:50:26 AEST" name="registration" finished-at="2023-05-25T20:50:32 AEST" duration-ms="6399" status="PASS">
+        <test-method signature="TC003_InvalidCredentials()[pri:3, instance:TestCases.TC003_InvalidCredentials@202b0582]" started-at="2023-05-26T09:54:04 AEST" name="TC003_InvalidCredentials" finished-at="2023-05-26T09:54:10 AEST" duration-ms="5791" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC003_InvalidCredentials@54422e18]" started-at="2023-05-25T20:50:33 AEST" name="tearDown" finished-at="2023-05-25T20:50:33 AEST" duration-ms="315" status="PASS">
+        </test-method> <!-- TC003_InvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC003_InvalidCredentials@202b0582]" started-at="2023-05-26T09:54:10 AEST" name="tearDown" finished-at="2023-05-26T09:54:11 AEST" duration-ms="375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestCases.TC003_InvalidCredentials -->
       <class name="TestCases.TC006_Contactus_form">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC006_Contactus_form@7ef82753]" started-at="2023-05-25T20:51:01 AEST" name="setup" finished-at="2023-05-25T20:51:06 AEST" duration-ms="5304" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC006_Contactus_form@58cbafc2]" started-at="2023-05-26T09:54:37 AEST" name="setup" finished-at="2023-05-26T09:54:48 AEST" duration-ms="11227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="registration()[pri:6, instance:TestCases.TC006_Contactus_form@7ef82753]" started-at="2023-05-25T20:51:06 AEST" name="registration" finished-at="2023-05-25T20:51:11 AEST" duration-ms="4736" status="PASS">
+        <test-method signature="TC006_Contactus()[pri:6, instance:TestCases.TC006_Contactus_form@58cbafc2]" started-at="2023-05-26T09:54:48 AEST" name="TC006_Contactus" finished-at="2023-05-26T09:54:54 AEST" duration-ms="5830" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC006_Contactus_form@7ef82753]" started-at="2023-05-25T20:51:11 AEST" name="tearDown" finished-at="2023-05-25T20:51:12 AEST" duration-ms="333" status="PASS">
+        </test-method> <!-- TC006_Contactus -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC006_Contactus_form@58cbafc2]" started-at="2023-05-26T09:54:54 AEST" name="tearDown" finished-at="2023-05-26T09:54:54 AEST" duration-ms="337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestCases.TC006_Contactus_form -->
       <class name="TestCases.TC004_LogoutUser">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC004_LogoutUser@117159c0]" started-at="2023-05-25T20:50:33 AEST" name="setup" finished-at="2023-05-25T20:50:40 AEST" duration-ms="7041" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC004_LogoutUser@235ecd9f]" started-at="2023-05-26T09:54:11 AEST" name="setup" finished-at="2023-05-26T09:54:16 AEST" duration-ms="5174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="registration()[pri:4, instance:TestCases.TC004_LogoutUser@117159c0]" started-at="2023-05-25T20:50:40 AEST" name="registration" finished-at="2023-05-25T20:50:50 AEST" duration-ms="9752" status="PASS">
+        <test-method signature="TC004_LogoutUser()[pri:4, instance:TestCases.TC004_LogoutUser@235ecd9f]" started-at="2023-05-26T09:54:16 AEST" name="TC004_LogoutUser" finished-at="2023-05-26T09:54:27 AEST" duration-ms="11161" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC004_LogoutUser@117159c0]" started-at="2023-05-25T20:50:50 AEST" name="tearDown" finished-at="2023-05-25T20:50:50 AEST" duration-ms="321" status="PASS">
+        </test-method> <!-- TC004_LogoutUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC004_LogoutUser@235ecd9f]" started-at="2023-05-26T09:54:27 AEST" name="tearDown" finished-at="2023-05-26T09:54:27 AEST" duration-ms="374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestCases.TC004_LogoutUser -->
       <class name="TestCases.TC007_TestCases_Tab">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC007_TestCases_Tab@3b0fe47a]" started-at="2023-05-25T20:51:12 AEST" name="setup" finished-at="2023-05-25T20:51:18 AEST" duration-ms="6492" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC007_TestCases_Tab@2034b64c]" started-at="2023-05-26T09:54:54 AEST" name="setup" finished-at="2023-05-26T09:55:00 AEST" duration-ms="5737" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testcases()[pri:7, instance:TestCases.TC007_TestCases_Tab@3b0fe47a]" started-at="2023-05-25T20:51:18 AEST" name="testcases" finished-at="2023-05-25T20:51:26 AEST" duration-ms="7568" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcases -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC007_TestCases_Tab@3b0fe47a]" started-at="2023-05-25T20:51:26 AEST" name="tearDown" finished-at="2023-05-25T20:51:26 AEST" duration-ms="351" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- TestCases.TC007_TestCases_Tab -->
-      <class name="TestCases.TC005_Register_User_With_Registeredemail">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC005_Register_User_With_Registeredemail@3e27ba32]" started-at="2023-05-25T20:50:50 AEST" name="setup" finished-at="2023-05-25T20:50:56 AEST" duration-ms="6254" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="registration()[pri:5, instance:TestCases.TC005_Register_User_With_Registeredemail@3e27ba32]" started-at="2023-05-25T20:50:56 AEST" name="registration" finished-at="2023-05-25T20:51:01 AEST" duration-ms="4140" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC005_Register_User_With_Registeredemail@3e27ba32]" started-at="2023-05-25T20:51:01 AEST" name="tearDown" finished-at="2023-05-25T20:51:01 AEST" duration-ms="308" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- TestCases.TC005_Register_User_With_Registeredemail -->
-      <class name="TestCases.TC001_Register_User">
-        <test-method is-config="true" signature="ExcelSetup()[pri:0, instance:TestCases.TC001_Register_User@17f62e33]" started-at="2023-05-25T20:49:45 AEST" name="ExcelSetup" finished-at="2023-05-25T20:49:45 AEST" duration-ms="294" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ExcelSetup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC001_Register_User@17f62e33]" started-at="2023-05-25T20:49:45 AEST" name="setup" finished-at="2023-05-25T20:49:53 AEST" duration-ms="7043" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="registration()[pri:1, instance:TestCases.TC001_Register_User@17f62e33]" started-at="2023-05-25T20:49:53 AEST" name="registration" finished-at="2023-05-25T20:50:02 AEST" duration-ms="9350" status="FAIL">
+        <test-method signature="TC007_TestCAses_Tab()[pri:7, instance:TestCases.TC007_TestCases_Tab@2034b64c]" started-at="2023-05-26T09:55:00 AEST" name="TC007_TestCAses_Tab" finished-at="2023-05-26T09:55:05 AEST" duration-ms="5110" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='dismiss-button']"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[@id='aswift_3']"}
   (Session info: chrome=113.0.5672.127)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8c2331f61a8bc785f8503308dcfc0cbf, findElement {using=xpath, value=//div[@id='dismiss-button']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sanpr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56961}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56961/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8c2331f61a8bc785f8503308dcfc0cbf]]>
+Command: [b2cd0adb8a73a19125f5d2dfdf4c2d4b, findElement {using=xpath, value=//iframe[@id='aswift_3']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sanpr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65206}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65206/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2cd0adb8a73a19125f5d2dfdf4c2d4b]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='dismiss-button']"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[@id='aswift_3']"}
   (Session info: chrome=113.0.5672.127)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8c2331f61a8bc785f8503308dcfc0cbf, findElement {using=xpath, value=//div[@id='dismiss-button']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sanpr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56961}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56961/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8c2331f61a8bc785f8503308dcfc0cbf
+Command: [b2cd0adb8a73a19125f5d2dfdf4c2d4b, findElement {using=xpath, value=//iframe[@id='aswift_3']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sanpr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65206}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65206/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2cd0adb8a73a19125f5d2dfdf4c2d4b
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -141,8 +109,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 at jdk.proxy2/jdk.proxy2.$Proxy22.isDisplayed(Unknown Source)
-at Page_objects.LandingPage.dismiss_adv(LandingPage.java:64)
-at TestCases.TC001_Register_User.registration(TC001_Register_User.java:80)
+at Page_objects.TestCasePage.dismiss_advertisement(TestCasePage.java:32)
+at TestCases.TC007_TestCases_Tab.TC007_TestCAses_Tab(TC007_TestCases_Tab.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -176,12 +144,118 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC001_Register_User@17f62e33]" started-at="2023-05-25T20:50:02 AEST" name="tearDown" finished-at="2023-05-25T20:50:02 AEST" duration-ms="375" status="PASS">
+        </test-method> <!-- TC007_TestCAses_Tab -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC007_TestCases_Tab@2034b64c]" started-at="2023-05-26T09:55:05 AEST" name="tearDown" finished-at="2023-05-26T09:55:06 AEST" duration-ms="348" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="closeExcelSetup()[pri:0, instance:TestCases.TC001_Register_User@17f62e33]" started-at="2023-05-25T20:51:26 AEST" name="closeExcelSetup" finished-at="2023-05-25T20:51:26 AEST" duration-ms="0" status="PASS">
+      </class> <!-- TestCases.TC007_TestCases_Tab -->
+      <class name="TestCases.TC005_Register_User_With_Registeredemail">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC005_Register_User_With_Registeredemail@1ca3b418]" started-at="2023-05-26T09:54:27 AEST" name="setup" finished-at="2023-05-26T09:54:32 AEST" duration-ms="4942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC005_registration_with_Existing_Email()[pri:5, instance:TestCases.TC005_Register_User_With_Registeredemail@1ca3b418]" started-at="2023-05-26T09:54:32 AEST" name="TC005_registration_with_Existing_Email" finished-at="2023-05-26T09:54:36 AEST" duration-ms="3998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC005_registration_with_Existing_Email -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC005_Register_User_With_Registeredemail@1ca3b418]" started-at="2023-05-26T09:54:37 AEST" name="tearDown" finished-at="2023-05-26T09:54:37 AEST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC005_Register_User_With_Registeredemail -->
+      <class name="TestCases.TC001_Register_User">
+        <test-method is-config="true" signature="ExcelSetup()[pri:0, instance:TestCases.TC001_Register_User@5d0bf09b]" started-at="2023-05-26T09:53:05 AEST" name="ExcelSetup" finished-at="2023-05-26T09:53:05 AEST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExcelSetup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC001_Register_User@5d0bf09b]" started-at="2023-05-26T09:53:05 AEST" name="setup" finished-at="2023-05-26T09:53:18 AEST" duration-ms="12045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC001_Register_newuser()[pri:1, instance:TestCases.TC001_Register_User@5d0bf09b]" started-at="2023-05-26T09:53:18 AEST" name="TC001_Register_newuser" finished-at="2023-05-26T09:53:30 AEST" duration-ms="12711" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='dismiss-button']"}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3570eca912bc1132e4fbaf6782f9c4e7, findElement {using=xpath, value=//div[@id='dismiss-button']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sanpr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64601}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64601/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3570eca912bc1132e4fbaf6782f9c4e7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='dismiss-button']"}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3570eca912bc1132e4fbaf6782f9c4e7, findElement {using=xpath, value=//div[@id='dismiss-button']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sanpr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64601}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64601/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3570eca912bc1132e4fbaf6782f9c4e7
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy22.isDisplayed(Unknown Source)
+at Page_objects.LandingPage.dismiss_adv(LandingPage.java:64)
+at TestCases.TC001_Register_User.TC001_Register_newuser(TC001_Register_User.java:80)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_Register_newuser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC001_Register_User@5d0bf09b]" started-at="2023-05-26T09:53:30 AEST" name="tearDown" finished-at="2023-05-26T09:53:31 AEST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="closeExcelSetup()[pri:0, instance:TestCases.TC001_Register_User@5d0bf09b]" started-at="2023-05-26T09:55:06 AEST" name="closeExcelSetup" finished-at="2023-05-26T09:55:06 AEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeExcelSetup -->
