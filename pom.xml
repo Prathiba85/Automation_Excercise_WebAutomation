@@ -82,11 +82,7 @@
 			<artifactId>fillo</artifactId>
 			<version>1.18</version>
 		</dependency>
-		<dependency>
-			<groupId>com.aventstack</groupId>
-			<artifactId>extentreports</artifactId>
-			<version>5.0.9</version>
-		</dependency>
+		
 		<!-- https://mvnrepository.com/artifact/org.sikuli/SikuliX-API -->
 	</dependencies>
 </project>
