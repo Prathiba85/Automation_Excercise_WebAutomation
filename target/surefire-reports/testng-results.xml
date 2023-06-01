@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-01T19:29:40 AEST" name="automationexcercise" finished-at="2023-06-01T19:29:59 AEST" duration-ms="18380">
+  <suite started-at="2023-06-01T21:02:39 AEST" name="automationexcercise" finished-at="2023-06-01T21:03:00 AEST" duration-ms="20946">
     <groups>
     </groups>
-    <test started-at="2023-06-01T19:29:40 AEST" name="Master" finished-at="2023-06-01T19:29:59 AEST" duration-ms="18380">
+    <test started-at="2023-06-01T21:02:39 AEST" name="Master" finished-at="2023-06-01T21:03:00 AEST" duration-ms="20946">
       <class name="TestCases.TC003_InvalidCredentials">
-        <test-method is-config="true" signature="ExcelSetup()[pri:0, instance:TestCases.TC003_InvalidCredentials@2cb4893b]" started-at="2023-06-01T19:29:40 AEST" name="ExcelSetup" finished-at="2023-06-01T19:29:40 AEST" duration-ms="415" status="PASS">
+        <test-method is-config="true" signature="ExcelSetup()[pri:0, instance:TestCases.TC003_InvalidCredentials@54bff557]" started-at="2023-06-01T21:02:39 AEST" name="ExcelSetup" finished-at="2023-06-01T21:02:39 AEST" duration-ms="320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExcelSetup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC003_InvalidCredentials@2cb4893b]" started-at="2023-06-01T19:29:40 AEST" name="setup" finished-at="2023-06-01T19:29:53 AEST" duration-ms="12474" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC003_InvalidCredentials@54bff557]" started-at="2023-06-01T21:02:39 AEST" name="setup" finished-at="2023-06-01T21:02:53 AEST" duration-ms="13855" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC003_InvalidCredentials()[pri:3, instance:TestCases.TC003_InvalidCredentials@2cb4893b]" started-at="2023-06-01T19:29:53 AEST" name="TC003_InvalidCredentials" finished-at="2023-06-01T19:29:58 AEST" duration-ms="4965" status="PASS">
+        <test-method signature="TC003_InvalidCredentials()[pri:3, instance:TestCases.TC003_InvalidCredentials@54bff557]" started-at="2023-06-01T21:02:53 AEST" name="TC003_InvalidCredentials" finished-at="2023-06-01T21:02:59 AEST" duration-ms="6368" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC003_InvalidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC003_InvalidCredentials@2cb4893b]" started-at="2023-06-01T19:29:58 AEST" name="tearDown" finished-at="2023-06-01T19:29:59 AEST" duration-ms="555" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC003_InvalidCredentials@54bff557]" started-at="2023-06-01T21:03:00 AEST" name="tearDown" finished-at="2023-06-01T21:03:00 AEST" duration-ms="378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="closeExcelSetup()[pri:0, instance:TestCases.TC003_InvalidCredentials@2cb4893b]" started-at="2023-06-01T19:29:59 AEST" name="closeExcelSetup" finished-at="2023-06-01T19:29:59 AEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeExcelSetup()[pri:0, instance:TestCases.TC003_InvalidCredentials@54bff557]" started-at="2023-06-01T21:03:00 AEST" name="closeExcelSetup" finished-at="2023-06-01T21:03:00 AEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeExcelSetup -->
