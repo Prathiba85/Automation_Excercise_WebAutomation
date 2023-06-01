@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-01T14:39:53 AEST" name="Failed suite [Failed suite [automationexcercise]]" finished-at="2023-06-01T14:40:44 AEST" duration-ms="51324">
+  <suite started-at="2023-06-01T19:23:08 AEST" name="automationexcercise" finished-at="2023-06-01T19:23:27 AEST" duration-ms="18858">
     <groups>
     </groups>
-    <test started-at="2023-06-01T14:39:53 AEST" name="Master(failed)(failed)" finished-at="2023-06-01T14:40:44 AEST" duration-ms="51324">
-      <class name="TestCases.TC012_Add_Products_in_Cart">
-        <test-method is-config="true" signature="ExcelSetup()[pri:0, instance:TestCases.TC012_Add_Products_in_Cart@25ce9dc4]" started-at="2023-06-01T14:39:52 AEST" name="ExcelSetup" finished-at="2023-06-01T14:39:53 AEST" duration-ms="761" status="PASS">
+    <test started-at="2023-06-01T19:23:08 AEST" name="Master" finished-at="2023-06-01T19:23:27 AEST" duration-ms="18858">
+      <class name="TestCases.TC003_InvalidCredentials">
+        <test-method is-config="true" signature="ExcelSetup()[pri:0, instance:TestCases.TC003_InvalidCredentials@2eae8e6e]" started-at="2023-06-01T19:23:07 AEST" name="ExcelSetup" finished-at="2023-06-01T19:23:08 AEST" duration-ms="305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExcelSetup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC012_Add_Products_in_Cart@25ce9dc4]" started-at="2023-06-01T14:39:53 AEST" name="setup" finished-at="2023-06-01T14:40:09 AEST" duration-ms="15474" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC003_InvalidCredentials@2eae8e6e]" started-at="2023-06-01T19:23:08 AEST" name="setup" finished-at="2023-06-01T19:23:19 AEST" duration-ms="11613" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC012_AddProducts()[pri:12, instance:TestCases.TC012_Add_Products_in_Cart@25ce9dc4]" started-at="2023-06-01T14:40:09 AEST" name="TC012_AddProducts" finished-at="2023-06-01T14:40:43 AEST" duration-ms="34244" status="PASS">
+        <test-method signature="TC003_InvalidCredentials()[pri:3, instance:TestCases.TC003_InvalidCredentials@2eae8e6e]" started-at="2023-06-01T19:23:19 AEST" name="TC003_InvalidCredentials" finished-at="2023-06-01T19:23:26 AEST" duration-ms="6185" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC012_AddProducts -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC012_Add_Products_in_Cart@25ce9dc4]" started-at="2023-06-01T14:40:43 AEST" name="tearDown" finished-at="2023-06-01T14:40:44 AEST" duration-ms="901" status="PASS">
+        </test-method> <!-- TC003_InvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC003_InvalidCredentials@2eae8e6e]" started-at="2023-06-01T19:23:26 AEST" name="tearDown" finished-at="2023-06-01T19:23:27 AEST" duration-ms="628" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="closeExcelSetup()[pri:0, instance:TestCases.TC012_Add_Products_in_Cart@25ce9dc4]" started-at="2023-06-01T14:40:44 AEST" name="closeExcelSetup" finished-at="2023-06-01T14:40:44 AEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeExcelSetup()[pri:0, instance:TestCases.TC003_InvalidCredentials@2eae8e6e]" started-at="2023-06-01T19:23:27 AEST" name="closeExcelSetup" finished-at="2023-06-01T19:23:27 AEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeExcelSetup -->
-      </class> <!-- TestCases.TC012_Add_Products_in_Cart -->
-    </test> <!-- Master(failed)(failed) -->
-  </suite> <!-- Failed suite [Failed suite [automationexcercise]] -->
+      </class> <!-- TestCases.TC003_InvalidCredentials -->
+    </test> <!-- Master -->
+  </suite> <!-- automationexcercise -->
 </testng-results>

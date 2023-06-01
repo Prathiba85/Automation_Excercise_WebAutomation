@@ -6,15 +6,15 @@
   </listeners>
   <test thread-count="5" name="Master(failed)">
     <classes>
-      <class name="TestCases.TC012_Add_Products_in_Cart">
+      <class name="TestCases.TC003_InvalidCredentials">
         <methods>
           <include name="setup"/>
+          <include name="TC003_InvalidCredentials"/>
           <include name="tearDown"/>
           <include name="closeExcelSetup"/>
-          <include name="TC012_AddProducts"/>
           <include name="ExcelSetup"/>
         </methods>
-      </class> <!-- TestCases.TC012_Add_Products_in_Cart -->
+      </class> <!-- TestCases.TC003_InvalidCredentials -->
     </classes>
   </test> <!-- Master(failed) -->
 </suite> <!-- Failed suite [automationexcercise] -->
