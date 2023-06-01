@@ -5,7 +5,7 @@ import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import Page_objects.Account_creation;
+import Page_objects.Account_CreationPage;
 import Page_objects.HomePage;
 import Page_objects.LandingPage;
 import Page_objects.LogoutPage;
@@ -16,6 +16,7 @@ public class TC001_Register_User extends BaseClass {
 	public static String name;
 	public static String pwd;
 	public static String email;
+	public static String Address;
 	@Test(priority =1)
 	public void TC001_Register_newuser() throws InterruptedException
 	{
@@ -44,7 +45,7 @@ public class TC001_Register_User extends BaseClass {
 		
 		firstname="testfirstname "+randomeString();
 		String lastname="testlastname"+randomeString();
-		String Address = "testaddress"+randomeString();
+		Address = "testaddress"+randomeString();
 		String country = "Australia";
 		String mobilenumber = randomeNumber();
 		
@@ -64,9 +65,7 @@ public class TC001_Register_User extends BaseClass {
 		
 	
 		//Assertion
-		Account_creation ac = new Account_creation(driver);
-	
-		
+		Account_CreationPage ac = new Account_CreationPage(driver);
 		String expected_accountcreation_text="ACCOUNT CREATED!";
 		String actual_accountcreation_text=	ac.account_creation();
 		AssertJUnit.assertEquals(actual_accountcreation_text, expected_accountcreation_text);
@@ -76,14 +75,14 @@ public class TC001_Register_User extends BaseClass {
 		//Landing Page
 		LandingPage lp = new LandingPage(driver);
 		Thread.sleep(2000);
-				
 		lp.dismiss_adv();
-		//String actual_logged_user=lp.get_loggeduser();
-		//System.out.println("Actual logged user is :"+actual_logged_user);
-		//String expected_loggeduser=name;
-		//Assert.assertEquals(actual_logged_user, expected_loggeduser);
+		driver.switchTo().defaultContent();
+		//Verify logged user
+		String actual_logged_user=lp.get_loggeduser();
+		System.out.println("Actual logged user is :"+actual_logged_user);
+		String expected_loggeduser=name;
+		Assert.assertEquals(actual_logged_user, expected_loggeduser);
 		//LogoutPage logout1 = new LogoutPage(driver);
-		//logout1.click_logout();
 		
 		
 	}

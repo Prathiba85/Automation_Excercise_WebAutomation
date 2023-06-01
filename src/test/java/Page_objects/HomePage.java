@@ -1,5 +1,6 @@
 package Page_objects;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -24,6 +25,13 @@ public class HomePage extends Base_page {
 	@FindBy(xpath="//p[contains(text(),'Email Address')]")WebElement signup_error;
 	@FindBy(xpath="//a[text()=' Contact us']")WebElement btn_contactus;
 	@FindBy(xpath="//a[text()=' Test Cases']")WebElement btn_testcases;
+	@FindBy(xpath="//a[@href='/products']")WebElement btn_products;
+	@FindBy(xpath="//h2[text()='Subscription']")WebElement txt_Subscription;
+	@FindBy(xpath="//input[@id='susbscribe_email']")WebElement txt_Email_Subscription;
+	@FindBy(xpath="//button[@id='subscribe' and @type = 'submit']")WebElement btn_Submitsubscribe;
+	@FindBy(xpath="//div[@class ='alert-success alert']")WebElement msg_subscription;
+	@FindBy(xpath="//a[text()=' Cart']")WebElement btn_cart;
+	@FindBy(xpath="//a[text()=' Delete Account']")WebElement btn_deleteaccount;
 	
 	//Actions
 	public void click_signup_login()
@@ -86,6 +94,44 @@ public class HomePage extends Base_page {
 	public void click_testcases()
 	{
 		btn_testcases.click();
+		
+	}
+	public void click_products()
+	{
+		btn_products.click();
+	}
+	public String get_SubscriptionText()
+	{
+		JavascriptExecutor js = ((JavascriptExecutor)driver);
+		js.executeScript("arguments[0].scrollIntoView(true);",txt_Subscription);
+		return txt_Subscription.getText();
+	}
+	
+	public void subscribe_email(String email)
+	{
+		txt_Email_Subscription.sendKeys(email);
+		btn_Submitsubscribe.click();
+	}
+	
+	public boolean verify_successful_subscription()
+	{
+		if(msg_subscription.isDisplayed())
+		{
+			return true;
+		}
+		return false;
+		
+	}
+	public void click_Cart()
+	{
+		
+		btn_cart.click();
+		
+	}
+	public void click_deleteaccount()
+	{
+		
+		btn_deleteaccount.click();
 		
 	}
 }

@@ -9,7 +9,7 @@ import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import Page_objects.Account_creation;
+import Page_objects.Account_CreationPage;
 import Page_objects.HomePage;
 import Page_objects.LandingPage;
 import Page_objects.LogoutPage;

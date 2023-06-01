@@ -43,20 +43,8 @@ public class TC006_Contactus_form extends BaseClass {
 		ctp.Set_Contactemail(email);
 		ctp.Set_Suject(subject);
 		ctp.Set_message(message);
-		Thread.sleep(2000);
 		
-		/*To load the file
-		ctp.click_choosefile();
-		/String imagesFilePath = "C:\\SeleniumPractice\\";
-		//String inputFilePath = "C:\\SeleniumPractice\\";
-		Screen s = new Screen();
-		Pattern fileInputTextbox = new Pattern("C:\\SeleniumPractice\\FileTextBox.PNG");
-		Pattern openButton = new Pattern("C:\\SeleniumPractice\\OpenButton.PNG");
-		Thread.sleep(1000);
-		s.wait(fileInputTextbox,20);
-		s.type(fileInputTextbox,"C:\\SeleniumPractice\\test.txt");
-		s.click(openButton);
-		*/
+		
 		ctp.click_submit();
 		driver.switchTo().alert().accept();
 	}

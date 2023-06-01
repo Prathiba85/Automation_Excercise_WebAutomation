@@ -70,6 +70,9 @@ public class BaseClass {
 		if (br.equals("chrome")) {
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--remote-allow-origins=*");
+		
+			
+			options.addExtensions(new File("C:\\browserdriver\\extension_4_7_3_0.crx"));
 			options.setExperimentalOption("excludeSwitches",Arrays.asList("disable-popup-blocking"));
 			driver = new ChromeDriver(options);
 
@@ -85,6 +88,7 @@ public class BaseClass {
 		driver.get(rb.getString("appURL"));
 
 		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
 
 	@AfterClass

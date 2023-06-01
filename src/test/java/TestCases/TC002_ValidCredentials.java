@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import Page_objects.Account_creation;
+import Page_objects.Account_CreationPage;
 import Page_objects.HomePage;
 import Page_objects.LandingPage;
 import Page_objects.LogoutPage;
@@ -37,9 +37,9 @@ public class TC002_ValidCredentials extends BaseClass {
 		
 		hp.set_email_login(email);
 		hp.set_password_login(password);
-		Thread.sleep(2000);
+		
 		hp.click_login();
-	
+		
 		LogoutPage logout = new LogoutPage(driver);
 		logout.click_logout();
 		

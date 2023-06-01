@@ -5,11 +5,11 @@
     <classes>
       <class name="TestCases.TC007_TestCases_Tab">
         <methods>
-          <include name="testcases"/>
           <include name="setup"/>
           <include name="tearDown"/>
           <include name="closeExcelSetup"/>
           <include name="ExcelSetup"/>
+          <include name="TC007_TestCases_Tab"/>
         </methods>
       </class> <!-- TestCases.TC007_TestCases_Tab -->
     </classes>

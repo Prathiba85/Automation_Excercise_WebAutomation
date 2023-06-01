@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Master</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>14/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri May 26 09:53:05 AEST 2023</td>
+<td>Started on:</td><td>Thu Jun 01 14:27:01 AEST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>120 seconds (120490 ms)</td>
+<tr><td>Total time:</td><td>595 seconds (595996 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,16 +76,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TestCases.TC001_Register_User.TC001_Register_newuser()'><b>TC001_Register_newuser</b><br>Test class: TestCases.TC001_Register_User</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;dismiss-button&apos;]&quot;}
+<td title='TestCases.TC012_Add_Products_in_Cart.TC012_AddProducts()'><b>TC012_AddProducts</b><br>Test class: TestCases.TC012_Add_Products_in_Cart</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@data-product-id=&apos;1&apos;]//ancestor::div[@class=&apos;overlay-content&apos;]&quot;}
   (Session info: chrome=113.0.5672.127)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3570eca912bc1132e4fbaf6782f9c4e7, findElement {using=xpath, value=//div[@id=&apos;dismiss-button&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sanpr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64601}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64601/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3570eca912bc1132e4fbaf6782f9c4e7
+Command: [8c6fd624a7346ca3fb7e67d15e6b69f9, findElement {using=xpath, value=//a[@data-product-id=&apos;1&apos;]//ancestor::div[@class=&apos;overlay-content&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sanpr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59091}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59091/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c6fd624a7346ca3fb7e67d15e6b69f9
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -97,22 +97,19 @@ Session ID: 3570eca912bc1132e4fbaf6782f9c4e7
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy22.isDisplayed(Unknown Source)
-	at Page_objects.LandingPage.dismiss_adv(LandingPage.java:64)
-	at TestCases.TC001_Register_User.TC001_Register_newuser(TC001_Register_User.java:80)
+	at Page_objects.ProductPage.addproduct_addcart(ProductPage.java:185)
+	at TestCases.TC012_Add_Products_in_Cart.TC012_AddProducts(TC012_Add_Products_in_Cart.java:35)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace377570010", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace377570010'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;dismiss-button&apos;]&quot;}
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2120816164", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2120816164'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@data-product-id=&apos;1&apos;]//ancestor::div[@class=&apos;overlay-content&apos;]&quot;}
   (Session info: chrome=113.0.5672.127)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3570eca912bc1132e4fbaf6782f9c4e7, findElement {using=xpath, value=//div[@id=&apos;dismiss-button&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sanpr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64601}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64601/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3570eca912bc1132e4fbaf6782f9c4e7
+Command: [8c6fd624a7346ca3fb7e67d15e6b69f9, findElement {using=xpath, value=//a[@data-product-id=&apos;1&apos;]//ancestor::div[@class=&apos;overlay-content&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sanpr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59091}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59091/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c6fd624a7346ca3fb7e67d15e6b69f9
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -129,11 +126,8 @@ Session ID: 3570eca912bc1132e4fbaf6782f9c4e7
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy22.isDisplayed(Unknown Source)
-	at Page_objects.LandingPage.dismiss_adv(LandingPage.java:64)
-	at TestCases.TC001_Register_User.TC001_Register_newuser(TC001_Register_User.java:80)
+	at Page_objects.ProductPage.addproduct_addcart(ProductPage.java:185)
+	at TestCases.TC012_Add_Products_in_Cart.TC012_AddProducts(TC012_Add_Products_in_Cart.java:35)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -163,98 +157,8 @@ Session ID: 3570eca912bc1132e4fbaf6782f9c4e7
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>12</td>
-<td>TestCases.TC001_Register_User@5d0bf09b</td></tr>
-<tr>
-<td title='TestCases.TC007_TestCases_Tab.TC007_TestCAses_Tab()'><b>TC007_TestCAses_Tab</b><br>Test class: TestCases.TC007_TestCases_Tab</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//iframe[@id=&apos;aswift_3&apos;]&quot;}
-  (Session info: chrome=113.0.5672.127)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b2cd0adb8a73a19125f5d2dfdf4c2d4b, findElement {using=xpath, value=//iframe[@id=&apos;aswift_3&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sanpr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65206}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65206/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b2cd0adb8a73a19125f5d2dfdf4c2d4b
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy22.isDisplayed(Unknown Source)
-	at Page_objects.TestCasePage.dismiss_advertisement(TestCasePage.java:32)
-	at TestCases.TC007_TestCases_Tab.TC007_TestCAses_Tab(TC007_TestCases_Tab.java:26)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace382055690", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace382055690'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//iframe[@id=&apos;aswift_3&apos;]&quot;}
-  (Session info: chrome=113.0.5672.127)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b2cd0adb8a73a19125f5d2dfdf4c2d4b, findElement {using=xpath, value=//iframe[@id=&apos;aswift_3&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sanpr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65206}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65206/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b2cd0adb8a73a19125f5d2dfdf4c2d4b
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy22.isDisplayed(Unknown Source)
-	at Page_objects.TestCasePage.dismiss_advertisement(TestCasePage.java:32)
-	at TestCases.TC007_TestCases_Tab.TC007_TestCAses_Tab(TC007_TestCases_Tab.java:26)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>5</td>
-<td>TestCases.TC007_TestCases_Tab@2034b64c</td></tr>
+<td>58</td>
+<td>TestCases.TC012_Add_Products_in_Cart@7bba5817</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -265,30 +169,75 @@ Session ID: b2cd0adb8a73a19125f5d2dfdf4c2d4b
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='TestCases.TC013_Verify_Products_quantity_in_Cart.TC013_VerifyProductsQuantity()'><b>TC013_VerifyProductsQuantity</b><br>Test class: TestCases.TC013_Verify_Products_quantity_in_Cart</td>
+<td></td>
+<td>43</td>
+<td>TestCases.TC013_Verify_Products_quantity_in_Cart@742ff096</td></tr>
+<tr>
+<td title='TestCases.TC008_Verify_All_Product.TC008_Verify_ProductList()'><b>TC008_Verify_ProductList</b><br>Test class: TestCases.TC008_Verify_All_Product</td>
+<td></td>
+<td>27</td>
+<td>TestCases.TC008_Verify_All_Product@53fb3dab</td></tr>
+<tr>
+<td title='TestCases.TC014_Verify_Place_OrderRegisterwhilecheckout.TC014_VerifyPlacedOrder()'><b>TC014_VerifyPlacedOrder</b><br>Test class: TestCases.TC014_Verify_Place_OrderRegisterwhilecheckout</td>
+<td></td>
+<td>110</td>
+<td>TestCases.TC014_Verify_Place_OrderRegisterwhilecheckout@75437611</td></tr>
+<tr>
 <td title='TestCases.TC006_Contactus_form.TC006_Contactus()'><b>TC006_Contactus</b><br>Test class: TestCases.TC006_Contactus_form</td>
 <td></td>
 <td>5</td>
-<td>TestCases.TC006_Contactus_form@58cbafc2</td></tr>
-<tr>
-<td title='TestCases.TC002_ValidCredentials.TC002_ValidCredentials()'><b>TC002_ValidCredentials</b><br>Test class: TestCases.TC002_ValidCredentials</td>
-<td></td>
-<td>16</td>
-<td>TestCases.TC002_ValidCredentials@3b0fe47a</td></tr>
-<tr>
-<td title='TestCases.TC005_Register_User_With_Registeredemail.TC005_registration_with_Existing_Email()'><b>TC005_registration_with_Existing_Email</b><br>Test class: TestCases.TC005_Register_User_With_Registeredemail</td>
-<td></td>
-<td>3</td>
-<td>TestCases.TC005_Register_User_With_Registeredemail@1ca3b418</td></tr>
+<td>TestCases.TC006_Contactus_form@548d708a</td></tr>
 <tr>
 <td title='TestCases.TC004_LogoutUser.TC004_LogoutUser()'><b>TC004_LogoutUser</b><br>Test class: TestCases.TC004_LogoutUser</td>
 <td></td>
-<td>11</td>
-<td>TestCases.TC004_LogoutUser@235ecd9f</td></tr>
+<td>10</td>
+<td>TestCases.TC004_LogoutUser@3a7442c7</td></tr>
+<tr>
+<td title='TestCases.TC010_Verify_Subscription.TC010_Verify_Subsription()'><b>TC010_Verify_Subsription</b><br>Test class: TestCases.TC010_Verify_Subscription</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TC010_Verify_Subscription@33065d67</td></tr>
+<tr>
+<td title='TestCases.TC009_Search_Product.TC008_Verify_ProductList()'><b>TC008_Verify_ProductList</b><br>Test class: TestCases.TC009_Search_Product</td>
+<td></td>
+<td>29</td>
+<td>TestCases.TC009_Search_Product@cb0755b</td></tr>
+<tr>
+<td title='TestCases.TC007_TestCases_Tab.TC007_TestCases_Tab()'><b>TC007_TestCases_Tab</b><br>Test class: TestCases.TC007_TestCases_Tab</td>
+<td></td>
+<td>10</td>
+<td>TestCases.TC007_TestCases_Tab@4b013c76</td></tr>
+<tr>
+<td title='TestCases.TC005_Register_User_With_Registeredemail.TC005_registration_with_Existing_Email()'><b>TC005_registration_with_Existing_Email</b><br>Test class: TestCases.TC005_Register_User_With_Registeredemail</td>
+<td></td>
+<td>4</td>
+<td>TestCases.TC005_Register_User_With_Registeredemail@4be29ed9</td></tr>
 <tr>
 <td title='TestCases.TC003_InvalidCredentials.TC003_InvalidCredentials()'><b>TC003_InvalidCredentials</b><br>Test class: TestCases.TC003_InvalidCredentials</td>
 <td></td>
 <td>5</td>
-<td>TestCases.TC003_InvalidCredentials@202b0582</td></tr>
+<td>TestCases.TC003_InvalidCredentials@6bbe85a8</td></tr>
+<tr>
+<td title='TestCases.TC011_Verify_Subscription_inCart.TC010_Verify_Subsription()'><b>TC010_Verify_Subsription</b><br>Test class: TestCases.TC011_Verify_Subscription_inCart</td>
+<td></td>
+<td>3</td>
+<td>TestCases.TC011_Verify_Subscription_inCart@712625fd</td></tr>
+<tr>
+<td title='TestCases.TC002_ValidCredentials.TC002_ValidCredentials()'><b>TC002_ValidCredentials</b><br>Test class: TestCases.TC002_ValidCredentials</td>
+<td></td>
+<td>12</td>
+<td>TestCases.TC002_ValidCredentials@5149d738</td></tr>
+<tr>
+<td title='TestCases.TC015_Verify_Place_OrderRegisterbeforecheckout.TC014_VerifyPlacedOrder()'><b>TC014_VerifyPlacedOrder</b><br>Test class: TestCases.TC015_Verify_Place_OrderRegisterbeforecheckout</td>
+<td></td>
+<td>69</td>
+<td>TestCases.TC015_Verify_Place_OrderRegisterbeforecheckout@350aac89</td></tr>
+<tr>
+<td title='TestCases.TC001_Register_User.TC001_Register_newuser()'><b>TC001_Register_newuser</b><br>Test class: TestCases.TC001_Register_User</td>
+<td></td>
+<td>48</td>
+<td>TestCases.TC001_Register_User@75d3a5e0</td></tr>
 </table><p>
 </body>
 </html>

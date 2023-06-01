@@ -21,11 +21,11 @@ public class TC007_TestCases_Tab extends BaseClass {
 	{
 		HomePage hp =new HomePage(driver);
 		hp.click_testcases();
-		Thread.sleep(5000);
+		
 	TestCasePage tp =new TestCasePage(driver);
 	tp.dismiss_advertisement();
 		String actual_Title=tp.get_testcasetitle();
-		String expected_Title="TEST CASES";
+		String expected_Title="Test Cases";
 		Assert.assertEquals(actual_Title,expected_Title);
 	}
 
