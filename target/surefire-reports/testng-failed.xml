@@ -3,15 +3,33 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="TestCases.TC003_InvalidCredentials">
+      <class name="TestCases.TC012_Add_Products_in_Cart">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="TC003_InvalidCredentials"/>
+          <include name="closeExcelSetup"/>
+          <include name="TC012_AddProducts"/>
+          <include name="ExcelSetup"/>
+        </methods>
+      </class> <!-- TestCases.TC012_Add_Products_in_Cart -->
+      <class name="TestCases.TC013_Verify_Products_quantity_in_Cart">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="TC013_VerifyProductsQuantity"/>
           <include name="closeExcelSetup"/>
           <include name="ExcelSetup"/>
         </methods>
-      </class> <!-- TestCases.TC003_InvalidCredentials -->
+      </class> <!-- TestCases.TC013_Verify_Products_quantity_in_Cart -->
+      <class name="TestCases.TC005_Register_User_With_Registeredemail">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="closeExcelSetup"/>
+          <include name="ExcelSetup"/>
+          <include name="TC005_registration_with_Existing_Email"/>
+        </methods>
+      </class> <!-- TestCases.TC005_Register_User_With_Registeredemail -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

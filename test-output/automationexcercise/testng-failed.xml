@@ -9,8 +9,8 @@
       <class name="TestCases.TC003_InvalidCredentials">
         <methods>
           <include name="setup"/>
-          <include name="tearDown"/>
           <include name="TC003_InvalidCredentials"/>
+          <include name="tearDown"/>
           <include name="closeExcelSetup"/>
           <include name="ExcelSetup"/>
         </methods>

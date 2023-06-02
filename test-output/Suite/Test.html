@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jun 02 08:55:54 AEST 2023</td>
+<td>Started on:</td><td>Fri Jun 02 11:26:06 AEST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>15 seconds (15578 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (25 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,83 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestCases.TC003_InvalidCredentials.ExcelSetup()'><b>ExcelSetup</b><br>Test class: TestCases.TC003_InvalidCredentials</td>
+<td><div><pre>java.lang.IllegalArgumentException: InputStream of class class org.apache.commons.compress.archivers.zip.ZipArchiveInputStream is not implementing InputStreamStatistics.
+	at org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream.&lt;init&gt;(ZipArchiveThresholdInputStream.java:65)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:178)
+	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init&gt;(ZipPackage.java:130)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:312)
+	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:59)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:289)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:285)
+	at com.codoid.products.fillo.Fillo.getWorkbook(Fillo.java:57)
+	at com.codoid.products.fillo.Fillo.getConnection(Fillo.java:41)
+	at TestCases.BaseClass.ExcelSetup(BaseClass.java:49)
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2113604623", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2113604623'><pre>java.lang.IllegalArgumentException: InputStream of class class org.apache.commons.compress.archivers.zip.ZipArchiveInputStream is not implementing InputStreamStatistics.
+	at org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream.&lt;init&gt;(ZipArchiveThresholdInputStream.java:65)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:178)
+	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init&gt;(ZipPackage.java:130)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:312)
+	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:59)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:289)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:285)
+	at com.codoid.products.fillo.Fillo.getWorkbook(Fillo.java:57)
+	at com.codoid.products.fillo.Fillo.getConnection(Fillo.java:41)
+	at TestCases.BaseClass.ExcelSetup(BaseClass.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>TestCases.TC003_InvalidCredentials@183ec003</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestCases.TC003_InvalidCredentials.tearDown()'><b>tearDown</b><br>Test class: TestCases.TC003_InvalidCredentials</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TC003_InvalidCredentials@183ec003</td></tr>
+<tr>
+<td title='TestCases.TC003_InvalidCredentials.setup()'><b>setup</b><br>Test class: TestCases.TC003_InvalidCredentials</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TC003_InvalidCredentials@183ec003</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -77,9 +152,51 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='TestCases.TC003_InvalidCredentials.TC003_InvalidCredentials()'><b>TC003_InvalidCredentials</b><br>Test class: TestCases.TC003_InvalidCredentials</td>
-<td></td>
-<td>3</td>
-<td>TestCases.TC003_InvalidCredentials@6be968ce</td></tr>
+<td><div><pre>java.lang.IllegalArgumentException: InputStream of class class org.apache.commons.compress.archivers.zip.ZipArchiveInputStream is not implementing InputStreamStatistics.
+	at org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream.&lt;init&gt;(ZipArchiveThresholdInputStream.java:65)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:178)
+	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init&gt;(ZipPackage.java:130)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:312)
+	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:59)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:289)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:285)
+	at com.codoid.products.fillo.Fillo.getWorkbook(Fillo.java:57)
+	at com.codoid.products.fillo.Fillo.getConnection(Fillo.java:41)
+	at TestCases.BaseClass.ExcelSetup(BaseClass.java:49)
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace820878444", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace820878444'><pre>java.lang.IllegalArgumentException: InputStream of class class org.apache.commons.compress.archivers.zip.ZipArchiveInputStream is not implementing InputStreamStatistics.
+	at org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream.&lt;init&gt;(ZipArchiveThresholdInputStream.java:65)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:178)
+	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init&gt;(ZipPackage.java:130)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:312)
+	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:59)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:289)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:285)
+	at com.codoid.products.fillo.Fillo.getWorkbook(Fillo.java:57)
+	at com.codoid.products.fillo.Fillo.getConnection(Fillo.java:41)
+	at TestCases.BaseClass.ExcelSetup(BaseClass.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>TestCases.TC003_InvalidCredentials@183ec003</td></tr>
 </table><p>
 </body>
 </html>
