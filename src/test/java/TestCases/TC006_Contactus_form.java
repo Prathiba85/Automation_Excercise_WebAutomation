@@ -1,9 +1,9 @@
 package TestCases;
 
-import org.sikuli.script.FindFailed;
-import org.sikuli.script.Pattern;
-import org.sikuli.script.Screen;
-import org.sikuli.script.SikuliException;
+//import org.sikuli.script.FindFailed;
+//import org.sikuli.script.Pattern;
+//import org.sikuli.script.Screen;
+//import org.sikuli.script.SikuliException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -19,7 +19,7 @@ public class TC006_Contactus_form extends BaseClass {
 	public static String pwd;
 	public static String email;
 	@Test(priority =6)
-	public void TC006_Contactus() throws FilloException, SikuliException, InterruptedException 
+	public void TC006_Contactus() throws FilloException, InterruptedException 
 	{
 		HomePage hp = new HomePage(driver);
 		String actual_Homepage = driver.getCurrentUrl();

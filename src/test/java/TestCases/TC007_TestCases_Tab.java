@@ -1,16 +1,9 @@
 package TestCases;
 
-import org.sikuli.script.FindFailed;
-import org.sikuli.script.Pattern;
-import org.sikuli.script.Screen;
-import org.sikuli.script.SikuliException;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.codoid.products.exception.FilloException;
-import com.codoid.products.fillo.Recordset;
-
-import Page_objects.ContactusPage;
 import Page_objects.HomePage;
 import Page_objects.TestCasePage;
 

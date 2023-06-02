@@ -2,70 +2,70 @@
 <testng-results ignored="8" total="12" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-02T12:31:41 AEST" name="Suite" finished-at="2023-06-02T12:33:23 AEST" duration-ms="101506">
+  <suite started-at="2023-06-02T13:54:17 AEST" name="Suite" finished-at="2023-06-02T13:55:39 AEST" duration-ms="82016">
     <groups>
     </groups>
-    <test started-at="2023-06-02T12:31:41 AEST" name="Test" finished-at="2023-06-02T12:33:23 AEST" duration-ms="101506">
+    <test started-at="2023-06-02T13:54:17 AEST" name="Test" finished-at="2023-06-02T13:55:39 AEST" duration-ms="82016">
       <class name="TestCases.TC009_Search_Product">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC009_Search_Product@710c2b53]" started-at="2023-06-02T12:32:26 AEST" name="setup" finished-at="2023-06-02T12:32:51 AEST" duration-ms="25283" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC009_Search_Product@710c2b53]" started-at="2023-06-02T13:55:18 AEST" name="setup" finished-at="2023-06-02T13:55:27 AEST" duration-ms="9212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC008_Verify_ProductList()[pri:9, instance:TestCases.TC009_Search_Product@710c2b53]" started-at="2023-06-02T12:32:51 AEST" name="TC008_Verify_ProductList" finished-at="2023-06-02T12:33:22 AEST" duration-ms="30884" status="PASS">
+        <test-method signature="TC008_Verify_ProductList()[pri:9, instance:TestCases.TC009_Search_Product@710c2b53]" started-at="2023-06-02T13:55:27 AEST" name="TC008_Verify_ProductList" finished-at="2023-06-02T13:55:37 AEST" duration-ms="9961" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC008_Verify_ProductList -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC009_Search_Product@710c2b53]" started-at="2023-06-02T12:33:22 AEST" name="tearDown" finished-at="2023-06-02T12:33:23 AEST" duration-ms="691" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC009_Search_Product@710c2b53]" started-at="2023-06-02T13:55:37 AEST" name="tearDown" finished-at="2023-06-02T13:55:39 AEST" duration-ms="2222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestCases.TC009_Search_Product -->
       <class name="TestCases.TC008_Verify_All_Product">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC008_Verify_All_Product@2767e23c]" started-at="2023-06-02T12:32:06 AEST" name="setup" finished-at="2023-06-02T12:32:13 AEST" duration-ms="7432" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC008_Verify_All_Product@2767e23c]" started-at="2023-06-02T13:54:55 AEST" name="setup" finished-at="2023-06-02T13:55:04 AEST" duration-ms="9527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC008_Verify_ProductList()[pri:8, instance:TestCases.TC008_Verify_All_Product@2767e23c]" started-at="2023-06-02T12:32:13 AEST" name="TC008_Verify_ProductList" finished-at="2023-06-02T12:32:26 AEST" duration-ms="12157" status="PASS">
+        <test-method signature="TC008_Verify_ProductList()[pri:8, instance:TestCases.TC008_Verify_All_Product@2767e23c]" started-at="2023-06-02T13:55:04 AEST" name="TC008_Verify_ProductList" finished-at="2023-06-02T13:55:16 AEST" duration-ms="12350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC008_Verify_ProductList -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC008_Verify_All_Product@2767e23c]" started-at="2023-06-02T12:32:26 AEST" name="tearDown" finished-at="2023-06-02T12:32:26 AEST" duration-ms="517" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC008_Verify_All_Product@2767e23c]" started-at="2023-06-02T13:55:16 AEST" name="tearDown" finished-at="2023-06-02T13:55:18 AEST" duration-ms="1487" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestCases.TC008_Verify_All_Product -->
       <class name="TestCases.TC003_InvalidCredentials">
-        <test-method is-config="true" signature="ExcelSetup()[pri:0, instance:TestCases.TC003_InvalidCredentials@273444fe]" started-at="2023-06-02T12:31:41 AEST" name="ExcelSetup" finished-at="2023-06-02T12:31:41 AEST" duration-ms="496" status="PASS">
+        <test-method is-config="true" signature="ExcelSetup()[pri:0, instance:TestCases.TC003_InvalidCredentials@273444fe]" started-at="2023-06-02T13:54:17 AEST" name="ExcelSetup" finished-at="2023-06-02T13:54:17 AEST" duration-ms="673" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExcelSetup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC003_InvalidCredentials@273444fe]" started-at="2023-06-02T12:31:41 AEST" name="setup" finished-at="2023-06-02T12:31:52 AEST" duration-ms="10402" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC003_InvalidCredentials@273444fe]" started-at="2023-06-02T13:54:17 AEST" name="setup" finished-at="2023-06-02T13:54:33 AEST" duration-ms="16127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC003_InvalidCredentials()[pri:3, instance:TestCases.TC003_InvalidCredentials@273444fe]" started-at="2023-06-02T12:31:52 AEST" name="TC003_InvalidCredentials" finished-at="2023-06-02T12:31:56 AEST" duration-ms="4456" status="PASS">
+        <test-method signature="TC003_InvalidCredentials()[pri:3, instance:TestCases.TC003_InvalidCredentials@273444fe]" started-at="2023-06-02T13:54:34 AEST" name="TC003_InvalidCredentials" finished-at="2023-06-02T13:54:39 AEST" duration-ms="5765" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC003_InvalidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC003_InvalidCredentials@273444fe]" started-at="2023-06-02T12:31:56 AEST" name="tearDown" finished-at="2023-06-02T12:31:57 AEST" duration-ms="764" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC003_InvalidCredentials@273444fe]" started-at="2023-06-02T13:54:39 AEST" name="tearDown" finished-at="2023-06-02T13:54:40 AEST" duration-ms="566" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="closeExcelSetup()[pri:0, instance:TestCases.TC003_InvalidCredentials@273444fe]" started-at="2023-06-02T12:33:23 AEST" name="closeExcelSetup" finished-at="2023-06-02T12:33:23 AEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeExcelSetup()[pri:0, instance:TestCases.TC003_InvalidCredentials@273444fe]" started-at="2023-06-02T13:55:39 AEST" name="closeExcelSetup" finished-at="2023-06-02T13:55:39 AEST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeExcelSetup -->
       </class> <!-- TestCases.TC003_InvalidCredentials -->
       <class name="TestCases.TC007_TestCases_Tab">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC007_TestCases_Tab@6fa51cd4]" started-at="2023-06-02T12:31:57 AEST" name="setup" finished-at="2023-06-02T12:32:05 AEST" duration-ms="8280" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC007_TestCases_Tab@6fa51cd4]" started-at="2023-06-02T13:54:40 AEST" name="setup" finished-at="2023-06-02T13:54:54 AEST" duration-ms="14116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC007_TestCases_Tab()[pri:7, instance:TestCases.TC007_TestCases_Tab@6fa51cd4]" started-at="2023-06-02T12:32:05 AEST" name="TC007_TestCases_Tab" finished-at="2023-06-02T12:32:06 AEST" duration-ms="139" status="PASS">
+        <test-method signature="TC007_TestCases_Tab()[pri:7, instance:TestCases.TC007_TestCases_Tab@6fa51cd4]" started-at="2023-06-02T13:54:54 AEST" name="TC007_TestCases_Tab" finished-at="2023-06-02T13:54:54 AEST" duration-ms="142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC007_TestCases_Tab -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC007_TestCases_Tab@6fa51cd4]" started-at="2023-06-02T12:32:06 AEST" name="tearDown" finished-at="2023-06-02T12:32:06 AEST" duration-ms="452" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC007_TestCases_Tab@6fa51cd4]" started-at="2023-06-02T13:54:54 AEST" name="tearDown" finished-at="2023-06-02T13:54:55 AEST" duration-ms="490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

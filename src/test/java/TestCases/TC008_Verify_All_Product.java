@@ -1,19 +1,16 @@
 package TestCases;
 
-import org.sikuli.script.FindFailed;
-import org.sikuli.script.Pattern;
-import org.sikuli.script.Screen;
-import org.sikuli.script.SikuliException;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.codoid.products.exception.FilloException;
 import com.codoid.products.fillo.Recordset;
 
-import Page_objects.ContactusPage;
+
 import Page_objects.HomePage;
 import Page_objects.ProductPage;
-import Page_objects.TestCasePage;
+
 
 public class TC008_Verify_All_Product extends BaseClass {
 	
@@ -23,7 +20,7 @@ public class TC008_Verify_All_Product extends BaseClass {
 		HomePage hp =new HomePage(driver);
 		hp.click_products();
         ProductPage pp = new ProductPage(driver);
-		
+		Thread.sleep(2000);
 		pp.dismiss_adv();
 		
 		String Actual_heading=pp.verify_AllProcutTxt();

@@ -2,12 +2,7 @@ package TestCases;
 
 import java.util.List;
 
-import org.apache.poi.util.SystemOutLogger;
-import org.openqa.selenium.WebElement;
-import org.sikuli.script.FindFailed;
-import org.sikuli.script.Pattern;
-import org.sikuli.script.Screen;
-import org.sikuli.script.SikuliException;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
